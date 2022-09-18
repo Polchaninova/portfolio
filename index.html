@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SheCodes</title>
+    <style>
+      :root {
+        --primary-color: #9c45f9;
+        --box-shadow: 5px 5px 3px 2px #e4d2f7;
+        --border-color: #9c45f9;
+        --accent-color: #ffffff;
+      }
+      html {
+        font-family: Times New Roman;
+      }
+      .container {
+        padding: 20px;
+        margin: 20px;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px 20px;
+        padding: 20px;
+      }
+      .contact {
+        display: flex;
+        padding: 20px;
+        border-radius: 5px;
+        background: var(--primary-color);
+        color: var(--accent-color);
+        box-shadow: var(--box-shadow);
+        border-color: var(--border-color);
+      }
+      .contact:hover {
+        border-color: #9c45f9;
+      }
+      .about {
+        display: flex;
+        padding: 20px;
+        border-radius: 5px;
+        background: var(--accent-color);
+        color: var(--primary-color);
+        border-color: var(--border-color);
+      }
+      .about:hover {
+        border-color: #9c45f9;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        padding-bottom: 0;
+        margin: 0;
+      }
+      h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        margin: 5px;
+      }
+      h3 {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>👋 Hi I am</h1>
+      <h2>Olha Polchaninova</h2>
+      <h3>Student at SheCodes, baser in Ukraine</h3>
+    </div>
+    <div class="buttons">
+      <a href="contact.html"> <button class="contact">Contact me</button></a>
+      <a href="about.html"><button class="about">About me</button></a>
+    </div>
+  </body>
+</html>
